@@ -4,7 +4,7 @@
 src=student.c os-sim.c process.c
 obj=student.o os-sim.o process.o
 inc=student.h os-sim.h process.h
-misc=Makefile
+misc=makefile
 target=os-sim
 cflags=-Wall -g -O0 -Werror -pedantic -std=c99
 lflags=-lpthread
